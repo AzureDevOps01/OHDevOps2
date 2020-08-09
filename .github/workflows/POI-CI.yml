@@ -6,7 +6,7 @@ env:
 on:
   push:
     branches: [ OHT2.POI ]
-    paths: [ 'apis/poi/**', '.github/workflows/T2POI-CI.yml' ]
+    paths: [ 'apis/poi/**', '.github/workflows/POI-CI.yml' ]
   pull_request:
     branches: [ master ]
     paths: 'apis/poi/**' 
